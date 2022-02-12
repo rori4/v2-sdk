@@ -1495,6 +1495,18 @@
     estree-walker "^1.0.1"
     picomatch "^2.2.2"
 
+"@rori4/uniswap-sdk-core@^3.0.1":
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/@rori4/uniswap-sdk-core/-/uniswap-sdk-core-3.0.1.tgz#8c8fb17c68a70586de0191869800fdc5bd4d21ee"
+  integrity sha512-OW/N4kI+ZbkguMsagG/DtBcPsmfWuhNuj5Gu8Yzpz8vk0wsKnDdx+zU+AKK+gcPcj+P6CUi791jpDi0D/tUCTA==
+  dependencies:
+    "@ethersproject/address" "^5.0.2"
+    big.js "^5.2.2"
+    decimal.js-light "^2.5.0"
+    jsbi "^3.1.4"
+    tiny-invariant "^1.1.0"
+    toformat "^2.0.0"
+
 "@sinonjs/commons@^1.7.0":
   version "1.8.2"
   resolved "https://registry.yarnpkg.com/@sinonjs/commons/-/commons-1.8.2.tgz#858f5c4b48d80778fde4b9d541f27edc0d56488b"
@@ -1705,17 +1717,6 @@
     lodash "^4.17.15"
     semver "^7.3.2"
     tsutils "^3.17.1"
-
-"@uniswap/sdk-core@git://github.com/rori4/sdk-core.git#bc98adbf93ab87a3495dfb23f12aadd1f98db057":
-  version "3.0.1"
-  resolved "git://github.com/rori4/sdk-core.git#bc98adbf93ab87a3495dfb23f12aadd1f98db057"
-  dependencies:
-    "@ethersproject/address" "^5.0.2"
-    big.js "^5.2.2"
-    decimal.js-light "^2.5.0"
-    jsbi "^3.1.4"
-    tiny-invariant "^1.1.0"
-    toformat "^2.0.0"
 
 "@uniswap/v2-core@^1.0.1":
   version "1.0.1"
