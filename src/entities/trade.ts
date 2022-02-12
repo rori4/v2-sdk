@@ -337,6 +337,7 @@ export class Trade<TInput extends Currency, TOutput extends Currency, TTradeType
     const tokenIn = currencyIn.wrapped
     for (let i = 0; i < pairs.length; i++) {
       const pair = pairs[i]
+      console.log(`Testing ${pair.liquidityToken.address}`)
       // pair irrelevant
       if (!pair.token0.equals(amountOut.currency) && !pair.token1.equals(amountOut.currency)) continue
       if (pair.reserve0.equalTo(ZERO) || pair.reserve1.equalTo(ZERO)) continue
