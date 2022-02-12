@@ -1,4 +1,4 @@
-import { Token, WETH9, Price, CurrencyAmount } from '@uniswap/v2-core'
+import { Token, WETH9, Price, CurrencyAmount } from '@rori4/uniswap-sdk-core'
 import { InsufficientInputAmountError } from '../errors'
 import { computePairAddress, Pair } from './pair'
 
