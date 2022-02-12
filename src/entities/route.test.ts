@@ -1,4 +1,4 @@
-import { Ether, Token, WETH9, CurrencyAmount } from '@rori4/uniswap-sdk-core'
+import { Ether, Token, WETH9, CurrencyAmount } from '@uniswap/v2-core'
 import { Pair, Route } from './index'
 
 describe('Route', () => {

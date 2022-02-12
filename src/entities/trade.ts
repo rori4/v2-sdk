@@ -8,7 +8,7 @@ import {
   Price,
   sortedInsert,
   TradeType
-} from '@rori4/uniswap-sdk-core'
+} from '@uniswap/v2-core'
 import { ONE, ZERO } from '../constants'
 import invariant from 'tiny-invariant'
 

@@ -1,7 +1,7 @@
 {
   "name": "@rori4/uniswap-v2-sdk",
   "license": "MIT",
-  "version": "3.0.1",
+  "version": "3.0.1-testing.2",
   "description": "🛠 An SDK for building applications on top of Uniswap V2",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -24,7 +24,7 @@
   "dependencies": {
     "@ethersproject/address": "^5.0.0",
     "@ethersproject/solidity": "^5.0.0",
-    "@rori4/uniswap-sdk-core": "^3.0.1",
+    "@uniswap/v2-core": "^1.0.1",
     "tiny-invariant": "^1.1.0",
     "tiny-warning": "^1.0.3"
   },
