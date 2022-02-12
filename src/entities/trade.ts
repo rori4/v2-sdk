@@ -273,7 +273,6 @@ export class Trade<TInput extends Currency, TOutput extends Currency, TTradeType
         )
       } else if (maxHops > 1 && pairs.length > 1) {
         const relevantPairs = pairs.slice(0, i).concat(pairs.slice(i + 1, pairs.length))
-        .filter(p => [p.token0.address, p.token1.address].some(i => [pair.token0.address, pair.token1.address].includes(i)))
 
         // otherwise, consider all the other paths that lead from this token as long as we have not exceeded maxHops
         Trade.bestTradeExactIn(
