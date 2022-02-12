@@ -24,7 +24,7 @@
   "dependencies": {
     "@ethersproject/address": "^5.0.0",
     "@ethersproject/solidity": "^5.0.0",
-    "@uniswap/sdk-core": "git://github.com/rori4/sdk-core.git#bc98adbf93ab87a3495dfb23f12aadd1f98db057",
+    "@uniswap/sdk-core": "^3.0.0-alpha.3",
     "tiny-invariant": "^1.1.0",
     "tiny-warning": "^1.0.3"
   },
